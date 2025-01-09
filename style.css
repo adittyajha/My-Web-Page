@@ -1,0 +1,83 @@
+body{
+background-image:url("jns.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin:0;
+padding:0;
+font-family
+}
+
+.main{
+background:rgba(0, 0, 0, 0.65);
+height:100%;
+width:100%;
+display:flex;
+flex-direction:column;
+}
+
+.logo1{ 
+height:85px;
+width:75px;
+margin:8px 0 0 8px;
+border-radius:10px;
+}
+
+.logo1 > img{ 
+height:85px;
+width:75px;
+border-radius:10px;
+}
+
+.title{
+color:red;
+height:fit-content;
+width:fit-content;
+background:white;
+padding:10px;
+margin:10px 0 10px;
+border-radius:20px;
+}
+
+.logo2{
+height:85px;
+width:75px;
+margin: 8px 8px 0 0;
+border-radius:10px;
+}
+
+.logo2>img{
+height:85px;
+width:75px;
+border-radius:10px;
+}
+
+.nav{
+display:flex;
+width:100%;
+height:fit-content;
+justify-content:space-between;
+align-items:center;
+}
+
+.gallery{
+display:flex;
+justify-content: space-around;
+margin: auto 0;
+}
+
+.pic{
+display:flex;
+flex-direction:column;
+justify-content:center;
+width:400px;
+color:white;
+border:solid #FF8000 8px;
+border-radius: 10px;
+}
+
+.pic>img{
+width: 400px;
+border:solid #FF8000 4px;
+}
+
+
